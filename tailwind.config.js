@@ -4,6 +4,12 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: ['Rubik', 'sans-serif'],
+      secondary: ['Krub', 'sans-serif']
+    },
+    container: {
+      padding: {
+        DEFAULT: '150px',
+      },
     },
     extend: {
       colors: {

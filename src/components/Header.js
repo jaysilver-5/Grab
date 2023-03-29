@@ -1,33 +1,34 @@
-import React from 'react';
+import React from "react";
+import { FaFacebook } from "react-icons/fa";
 import Logo from './assets/Logo.png';
-import Time from './assets/Time.png'
+import Time from './assets/Time.png';
+import Email from './assets/Email.png';
+import Phone from './assets/Phone.png';
 
-// const Logo = function() {
-//   return(
-//     <div className="flex fixed justify-between mx-[15%] w-[20px] z-10 h-[20px]">
-//       <div className='transform bg-primary -rotate-45 absolute top-0 left-0 w-[8px] h-[8px]'></div>
-//       <div class="absolute top-0 bg-primary right-0 w-[8px] h-[8px]"></div>
-//       <div class="absolute bottom-0 bg-primary left-0 w-[8px] h-[8px]"></div>
-//       <div class="absolute bottom-0 bg-primary right-0 w-[8px] h-[8px]"></div>
-//       <div className='grid place-items-center flex gap-4 ml-[30px]'>
-//         <h1 className='grid place-items-center text-2xl text-white font-semibold font-primary mb' >Transitflow</h1>
-//       </div>
-//     </div>
-//   )
-// }
-
-export default function Header() {
+const Navbar = () => {
   return (
-    <header className='py-8 bg-secondary'>
-        <div className="mx-auto">
-            <div className="flex mx-[17%] items-center justify-start">
-              {/* logo */}
-                <img src={Logo} alt='' className='h-[36px] w-[210px]'></img>
-
-
-              <img src={Time} alt="" className='ml-auto w-[40px] h-[40px] mx-auto'></img>
-            </div>
+    <div className="container bg-secondary bg-gray-800 h-28">
+      <div className=" mx-auto px-2 py-2 flex justify-between items-center h-full">
+        <div className="flex items-center">
+          <img src={Logo} alt="Logo" className="h-[36px] w-30 mr-2" />
         </div>
-    </header>
-  )
-}
+        <div className="flex items-center">
+          <div className="flex items-center mr-6">
+            <img src={Time} alt='' className="h-[63px] w-[63px]"/>
+            <span className="text-white font-secondary ml-2 text-[12px] font-medium">Mon-Sat. 9.00 - 18.00<br/>Sunday closed Messsage </span>
+          </div>
+          <div className="flex items-center mr-6">
+            <img src={Email} alt='' className="h-[63px] w-[63px]"/>
+            <span className="text-white font-secondary ml-2 text-[12px] font-medium">Email<br/>contact@logistics.com</span>
+          </div>
+          <div className="flex items-center">
+            <img src={Phone} alt='' className="h-[63px] w-[63px]"/>
+            <span className="text-white font-secondary ml-2 text-[12px] font-medium">Call us<br/>(00) 112 365 489</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
