@@ -5,6 +5,10 @@ import Banner from './components/Banner';
 import Services from './components/Services';
 import About from './components/About';
 import Count from './components/Count';
+import Projects from './components/Projects';
+import Background from './components/Background';
+import Testimonails from './components/Testimonails';
+import Choose from './components/Choose';
 
 function App() {
   return (
@@ -15,6 +19,9 @@ function App() {
       <Services/>
       <About/>
       <Count/>
+      <Projects/>
+      <Testimonails/>
+      <Choose/>
     </div>
   );
 }

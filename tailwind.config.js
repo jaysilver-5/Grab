@@ -22,6 +22,7 @@ module.exports = {
       backgroundImage: {
         banner: "url('./components/assets/site-bg.png')",
         about: "url('./components/assets/about-bg.png')",
+        pattern: "url('./components/assets/Pattern.png')",
       },
     },
   },
