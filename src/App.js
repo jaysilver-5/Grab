@@ -6,9 +6,11 @@ import Services from './components/Services';
 import About from './components/About';
 import Count from './components/Count';
 import Projects from './components/Projects';
-import Background from './components/Background';
 import Testimonails from './components/Testimonails';
 import Choose from './components/Choose';
+import Team from './components/Team';
+import Contact from './components/Contact';
+import Blog from './components/Blog'
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
       <Projects/>
       <Testimonails/>
       <Choose/>
+      <Team/>
+      <Contact/>
+      <Blog/>
     </div>
   );
 }
