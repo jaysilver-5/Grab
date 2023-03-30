@@ -7,7 +7,7 @@ import Jet from './assets/jet.png';
 export default function 
 () {
   return (
-    <div className='w-full h-96 flex h-screen items-center'>
+    <div className='w-full h-81 flex h-screen items-center'>
         <div className='flex justify-between m-auto w-[85%] p-4 h-70'>
             <div>
                 <div className='flex w-[35%] items-center text-[14px] bg-black text-white bg-opacity-50'>

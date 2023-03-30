@@ -8,7 +8,7 @@ module.exports = {
     },
     container: {
       padding: {
-        DEFAULT: '180px',
+        DEFAULT: '150px',
       },
     },
     extend: {
@@ -21,6 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         banner: "url('./components/assets/site-bg.png')",
+        about: "url('./components/assets/about-bg.png')",
       },
     },
   },
