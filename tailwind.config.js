@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: ['Rubik', 'sans-serif'],
-      secondary: ['Krub', 'sans-serif']
+      secondary: ['Krub', 'sans-serif'],
     },
     container: {
       padding: {
-        DEFAULT: '150px',
+        DEFAULT: '180px',
       },
     },
     extend: {
@@ -18,6 +18,9 @@ module.exports = {
         tertiary: '#F4F4F4',
         headingfont: '#1C1F35',
         paragraph: '#666C89'
+      },
+      backgroundImage: {
+        banner: "url('./components/assets/site-bg.png')",
       },
     },
   },

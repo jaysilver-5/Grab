@@ -1,38 +1,45 @@
 import React from "react";
+import { AiOutlineDown } from 'react-icons/ai'
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <div className="bg-gray-800 h-16">
-      <div className="container mx-auto px-4 flex justify-between items-center h-full">
-        <div className="flex items-center">
-          <img src="logo.png" alt="Logo" className="h-10 mr-4" />
-          <div className="hidden sm:flex space-x-4 text-white">
-            <a href="#" className="hover:bg-gray-700 px-3 py-2 rounded">Link 1</a>
-            <a href="#" className="hover:bg-gray-700 px-3 py-2 rounded">Link 2</a>
-            <a href="#" className="hover:bg-gray-700 px-3 py-2 rounded">Link 3</a>
-            <a href="#" className="hover:bg-gray-700 px-3 py-2 rounded">Link 4</a>
-            <a href="#" className="hover:bg-gray-700 px-3 py-2 rounded">Link 5</a>
-          </div>
-        </div>
-        <div className="flex items-center space-x-4">
-        <a href="#">
-            <FaInstagram className="text-white text-2xl hover:text-gray-400" />
-          </a>
-          <a href="#">
-            <FaFacebook className="text-white text-2xl hover:text-gray-400" />
-          </a>
-          <a href="#">
-            <FaTwitter className="text-white text-2xl hover:text-gray-400" />
-          </a>
-          <a href="#">
-            <FaLinkedin className="text-white text-2xl hover:text-gray-400" />
-          </a>
-          <div className="hidden sm:block h-16 w-16 bg-white"></div>
-        </div>
+    <nav className="container z-50 absolute top-28 flex items-center justify-between h-16 bg-secondary bg-opacity-25 text-white">
+      <div className="flex items-center">
+        <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
+          Home
+        </a>
+        <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
+          About
+        </a>
+        <a href="#" className="px-3.5 text-[14px] flex items-center border-r border-gray-400 hover:text-gray-300">
+          Pages <AiOutlineDown className="" />
+        </a>
+        <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
+          Project
+        </a>
+        <a href="#" className="px-3.5 text-[14px] hover:text-gray-300">
+          Contact
+        </a>
       </div>
-    </div>
+      <div className="flex items-center">
+        <a href="#">
+          <FaFacebook className="text-2xl h-[19px] mx-4 hover:text-gray-300" />
+        </a>
+        <a href="#">
+          <FaTwitter className="text-2xl h-[19px] mx-4 hover:text-gray-300" />
+        </a>
+        <a href="#">
+          <FaInstagram className="text-2xl h-[19px] mx-4 hover:text-gray-300" />
+        </a>
+        <a href="#">
+          <FaLinkedin className="text-2xl h-[19px] mx-4 hover:text-gray-300" />
+        </a>
+        <div className="ml-5 flex items-center text-black w-72 h-16 w-16 bg-white"><h1 className="mx-auto font-secondary font-medium">Request quote</h1></div>
+      </div>
+      
+    </nav>
   );
-};
+}
 
 export default Navbar;
