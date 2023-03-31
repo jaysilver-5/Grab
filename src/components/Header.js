@@ -7,7 +7,7 @@ import Phone from './assets/Phone.png';
 
 const Navbar = () => {
   return (
-    <div className="bg-secondary overflow-hidden container bg-gray-800 h-28">
+    <div className="bg-secondary bg-cover overflow-hidden w-full container bg-gray-800 h-28">
       <div className="mx-auto w-full px-2 py-2 flex justify-between items-center h-full">
         <div className="flex items-center">
           <img src={Logo} alt="Logo" className="h-[36px] w-30 mr-2" />
