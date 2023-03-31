@@ -4,8 +4,8 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <nav className="">
-       <div className="container bg-secondary bg-opacity-25 text-white z-50 absolute w-screen top-28 flex items-center justify-between h-16">
+    <nav className="container bg-secondary bg-opacity-25 absolute left-0 right-0 text-white z-50 absolute w-screen top-28 flex items-center justify-between h-16">
+       
         <div className="flex items-center">
           <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
             Home
@@ -38,7 +38,7 @@ function Navbar() {
           </a>
           <div className="ml-5 flex items-center text-black w-72 h-16 w-16 bg-white"><h1 className="mx-auto font-secondary font-medium">Request quote</h1></div>
         </div>
-      </div>
+      
     </nav>
   );
 }
