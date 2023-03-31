@@ -9,7 +9,7 @@ function Contact() {
     <div className='pt-24 pb-36 bg-secondary'>
         <div className='text-white flex items-center'>
             {/* Flex1 */}
-                <div className='container flex-1/2  items-center m-auto'>
+                <div className='container flex1  items-center m-auto'>
                     {/* subhead */}
                     <div className='flex items-center w-[20%] text-[14px] bg-black text-white bg-opacity-50'>
                         <div className='h-5 w-[2px] bg-primary'></div>
@@ -38,7 +38,7 @@ function Contact() {
                     </div>
                 </div>
                 {/* Flex2 */}
-                <div className='flex-1 relative -left-12 mr-12'>
+                <div className='flex-1 relative -left-12'>
                     <div className='flex gap-x-6'>
                         <input placeholder='Your name*' className='w-[250px] p-2 h-[60px] bg-secondary border border-[#4E5683]-600'/>
                         <input placeholder='Email *' className='w-[250px] p-2 h-[60px] bg-secondary border border-[#4E5683]-600'/>
