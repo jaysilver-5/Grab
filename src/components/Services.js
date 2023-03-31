@@ -30,7 +30,7 @@ export default function
                 <div className='mt-8 flex gap-x-8'>
                     <img src={Jet} alt='' className='w-[50px] h-[50px]'/>
                     <div className='border-l pl-5 border-gray'>
-                        <h1 className='font-primary font-normal text-[25px]'>Sea transport Services</h1>
+                        <h1 className='font-primary font-normal text-[25px]'>Air Fright Services</h1>
                         <p className='font-primary font-normal text-[14px]'>Following the quality of our service 
                             <br/>thus having gained trust of our 
                             <br/>many clients.</p>
@@ -42,7 +42,7 @@ export default function
                 <div className='flex gap-x-8'>
                     <img src={Warehouse} alt='' className='w-[50px] h-[50px]'/>
                     <div className='border-l pl-4 border-gray'>
-                        <h1 className='font-primary font-normal text-[25px]'>Sea transport Services</h1>
+                        <h1 className='font-primary font-normal text-[25px]'>Warehousing Services</h1>
                         <p className='font-primary font-normal text-[14px]'>Following the quality of our service 
                             <br/>thus having gained trust of our 
                             <br/>many clients.</p>
@@ -51,7 +51,7 @@ export default function
                 <div className='mt-8 flex gap-x-8'>
                     <img src={Shipping} alt='' className='w-[50px] h-[50px]'/>
                     <div className='border-l pl-4 border-gray'>
-                        <h1 className='font-primary font-normal text-[25px]'>Sea transport Services</h1>
+                        <h1 className='font-primary font-normal text-[25px]'>Local Shipping Services</h1>
                         <p className='font-primary font-normal text-[14px]'>Following the quality of our service 
                             <br/>thus having gained trust of our 
                             <br/>many clients.</p>

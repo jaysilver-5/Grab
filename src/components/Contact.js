@@ -6,7 +6,7 @@ import ClientLogo from './assets/Client-Logo.png'
 
 function Contact() {
   return (
-    <div className='pt-24 bg-secondary'>
+    <div className='pt-24 pb-36 bg-secondary'>
         <div className='text-white flex items-center'>
             {/* Flex1 */}
                 <div className='container flex-1/2  items-center m-auto'>

@@ -2,6 +2,11 @@ import React from 'react';
 import ChooseImg from './assets/choice-img.png';
 import Pattern from './assets/Pattern.png';
 import Delivery from './assets/delivery.png';
+import Globe from './assets/Globe.png';
+import Care from './assets/Care.png';
+import Drum from './assets/Drum.png';
+import Intime from './assets/Intime.png'
+import Ship from './assets/Ship.png'
 
 function Choose() {
   return (
@@ -26,43 +31,43 @@ function Choose() {
                         </p>
                         {/* Badges Row 1 */}
 
-                        <div className='flex mt-12'>
+                        <div className='flex gap-x-12 mt-12'>
                             <div className='flex items-center'>
                                 <img src={Delivery} alt='' />
-                                <p className='ml-2 font-primary font-normal text-[25]'>Delivery on Time</p>
+                                <p className='ml-2 font-primary font-normal text-[25]'>Safe package</p>
                             </div>
 
                             <div className='flex items-center'>
-                                <img src={Delivery} alt='' />
-                                <p className='ml-2 font-primary font-normal text-[25]'>Delivery on Time</p>
+                                <img src={Ship} alt='' />
+                                <p className='ml-2 font-primary font-normal text-[25]'>Ship everywhere</p>
                             </div>
                         </div>
 
                         {/* Badges Row 2 */}
 
-                        <div className='flex mt-4'>
+                        <div className='flex gap-x-12 mt-4'>
                             <div className='flex items-center'>
-                                <img src={Delivery} alt='' />
-                                <p className='ml-2 font-primary font-normal text-[25]'>Delivery on Time</p>
+                                <img src={Globe} alt='' />
+                                <p className='ml-2 font-primary font-normal text-[25]'>Global tracking</p>
                             </div>
 
                             <div className='flex items-center'>
-                                <img src={Delivery} alt='' />
-                                <p className='ml-2 font-primary font-normal text-[25]'>Delivery on Time</p>
+                                <img src={Care} alt='' />
+                                <p className='ml-2 font-primary font-normal text-[25]'>24/7 support</p>
                             </div>
                         </div>
 
                         {/* Badges Row 3 */}
 
-                        <div className='flex mt-4'>
+                        <div className='flex gap-x-12 mt-4'>
                             <div className='flex items-center'>
-                                <img src={Delivery} alt='' />
-                                <p className='ml-2 font-primary font-normal text-[25]'>Delivery on Time</p>
+                                <img src={Intime} alt='' />
+                                <p className='ml-2 font-primary font-normal text-[25]'>In Time Delivery</p>
                             </div>
 
                             <div className='flex items-center'>
-                                <img src={Delivery} alt='' />
-                                <p className='ml-2 font-primary font-normal text-[25]'>Delivery on Time</p>
+                                <img src={Drum} alt='' />
+                                <p className='ml-2 font-primary font-normal text-[25]'>Transparent pricing</p>
                             </div>
                         </div>
                     </div>

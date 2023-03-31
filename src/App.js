@@ -11,6 +11,8 @@ import Choose from './components/Choose';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import Blog from './components/Blog'
+import FooterNav from './components/FooterNav';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <Team/>
       <Contact/>
       <Blog/>
+      <FooterNav/>
+      <Footer/>
     </div>
   );
 }
