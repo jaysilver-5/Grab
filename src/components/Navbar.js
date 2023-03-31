@@ -38,8 +38,8 @@ function Navbar() {
           </a>
           <div className="ml-5 flex items-center text-black w-72 h-16 w-16 bg-white"><h1 className="mx-auto font-secondary font-medium">Request quote</h1></div>
         </div>
-      <div>
       </nav>
+    </div>
   );
 }
 
