@@ -35,7 +35,7 @@ function Navbar() {
         <a href="#">
           <FaLinkedin className="text-2xl h-[19px] mx-4 hover:text-gray-300" />
         </a>
-        <div className="ml-5 flex items-center text-black w-72 h-16 w-16 bg-white"><h1 className="mx-auto font-secondary font-medium">Request quote</h1></div>
+        <div className="ml-5 flex flex-1 items-center text-black w-72 h-16 w-16 bg-white"><h1 className="mx-auto font-secondary font-medium">Request quote</h1></div>
       </div>
     </nav>
   );
