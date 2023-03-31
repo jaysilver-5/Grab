@@ -89,7 +89,7 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <img src={Copyright}/>
+        <img src={Copyright} className="w-screen"/>
     </div>
   )
 }
