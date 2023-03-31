@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 function Navbar() {
   return (
     <div className='bg-secondary'>
-    <nav className="container bg-secondary mx-auto absolute w-screen bg-cover bg-opacity-25 text-white z-50 top-28 flex items-center justify-between h-16">
+    <nav className="container mx-auto absolute w-screen bg-cover bg-opacity-25 text-white z-50 top-28 flex items-center justify-between h-16">
       <div className="flex items-center w-full">
         <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
           Home
