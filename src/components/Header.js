@@ -8,7 +8,7 @@ import Phone from './assets/Phone.png';
 const Header = () => {
   return (
       <div className="container mx-auto w-screen bg-secondary bg-gray-800 h-28">
-        <div className=" mx-auto px-2 w-full py-2 flex justify-between items-center h-full">
+        <div className=" mx-auto px-2 bg-secondary w-full py-2 flex justify-between items-center h-full">
           <div className="flex items-center">
             <img src={Logo} alt="Logo" className="h-[36px] w-30 mr-2" />
           </div>
