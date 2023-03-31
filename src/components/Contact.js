@@ -38,7 +38,7 @@ function Contact() {
                     </div>
                 </div>
                 {/* Flex2 */}
-                <div className='flex-1 relative -left-12'>
+                <div className='flex-1 relative -left-12 mr-16'>
                     <div className='flex gap-x-6'>
                         <input placeholder='Your name*' className='w-[250px] p-2 h-[60px] bg-secondary border border-[#4E5683]-600'/>
                         <input placeholder='Email *' className='w-[250px] p-2 h-[60px] bg-secondary border border-[#4E5683]-600'/>
