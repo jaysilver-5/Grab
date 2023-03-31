@@ -19,7 +19,7 @@ function App() {
     <div className='overflow-x-hidden'>
       <Header className='bg-secondary w-screen overflow-x-hidden'/>
       <Banner/>
-      <Navbar className='w-screen overflow-x-hidden'/>
+      <Navbar className='w-screen bg-secondary bg-opacity-25 overflow-x-hidden'/>
       <Services/>
       <About/>
       <Count/>
