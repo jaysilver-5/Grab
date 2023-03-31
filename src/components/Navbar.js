@@ -12,15 +12,19 @@ function Navbar() {
         <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
           About
         </a>
+    
         <a href="#" className="px-3.5 text-[14px] flex items-center border-r border-gray-400 hover:text-gray-300">
           Pages <AiOutlineDown className="" />
         </a>
+    
         <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
           Project
         </a>
+    
         <a href="#" className="px-3.5 text-[14px] hover:text-gray-300">
           Contact
         </a>
+    
       </div>
       <div className="flex items-center">
         <a href="#">
