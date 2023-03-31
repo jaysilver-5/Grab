@@ -1,43 +1,56 @@
-import React from "react";
-import { AiOutlineDown } from 'react-icons/ai'
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import React from 'react';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 function Navbar() {
   return (
-      <nav className="container z-50 absolute top-28 flex items-center justify-between h-16 text-white">
-        <div className="flex items-center">
-          <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
-            Home
-          </a>
-          <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
-            About
-          </a>
-          <a href="#" className="px-3.5 text-[14px] flex items-center border-r border-gray-400 hover:text-gray-300">
-            Pages <AiOutlineDown className="" />
-          </a>
-          <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
-            Project
-          </a>
-          <a href="#" className="px-3.5 text-[14px] hover:text-gray-300">
-            Contact
-          </a>
+    <div className='flex flex-col'>
+        <nav className="absolute px-12 mt-20 top-0 z-50 w-full bg-secondary bg-opacity-25 p-6 nav">
+        <div className="container max-w-7xl mx-auto px-40">
+            <div className="flex items-center justify-between">
+            {/* Left side of navbar */}
+            <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                <div className="text-sm lg:flex-grow">
+                {/* Navigation links */}
+                <a href="#" className="block border-r pr-[30px] border-gray-400 mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4">
+                    Home 
+                </a>
+                <a href="#" className="block border-r pr-[30px] border-gray-400 mt-4 ml-2 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4">
+                    About
+                </a>
+                <a href="#" className="block border-r pr-[30px] border-gray-400 mt-4 ml-2 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4">
+                    Services
+                </a>
+                <a href="#" className="block border-r pr-[30px] border-gray-400 mt-4 ml-2 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4">
+                    Portfolio
+                </a>
+                <a href="#" className="block mt-4 lg:inline-block lg:mt-0 ml-2 text-gray-300 hover:text-white">
+                    Contact
+                </a>
+                </div>
+                <div className="flex items-center justify-center">
+                {/* Social buttons */}
+                <button className="inline-block text-gray-300 hover:text-white mr-4">
+                    <FaInstagram size={20} />
+                </button>
+                <button className="inline-block text-gray-300 hover:text-white mr-4">
+                    <FaFacebook size={20} />
+                </button>
+                <button className="inline-block text-gray-300 hover:text-white mr-4">
+                    <FaTwitter size={20} />
+                </button>
+                <button className="inline-block text-gray-300 hover:text-white mr-4">
+                    <FaLinkedin size={20} />
+                </button>
+                {/* Request quote div */}
+                </div>
+            </div>
+            </div>
         </div>
-        <div className="flex items-center">
-          <a href="#">
-            <FaFacebook className="text-2xl h-[19px] mx-4 hover:text-gray-300" />
-          </a>
-          <a href="#">
-            <FaTwitter className="text-2xl h-[19px] mx-4 hover:text-gray-300" />
-          </a>
-          <a href="#">
-            <FaInstagram className="text-2xl h-[19px] mx-4 hover:text-gray-300" />
-          </a>
-          <a href="#">
-            <FaLinkedin className="text-2xl h-[19px] mx-4 hover:text-gray-300" />
-          </a>
-          <div className="ml-5 flex items-center text-black w-72 h-16 w-16 bg-white"><h1 className="mx-auto font-secondary font-medium">Request quote</h1></div>
+        </nav>
+        <div className="bg-white h-full" style={{margin: 0}}>
+            Request quote
         </div>
-      </nav>
+    </div>
   );
 }
 
