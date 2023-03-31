@@ -17,9 +17,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className='overflow-x-hidden'>
-      <Header/>
+      <Header className='w-full overflow-x-hidden'/>
       <Banner/>
-      <Navbar/>
+      <Navbar className='w-full overflow-x-hidden'/>
       <Services/>
       <About/>
       <Count/>
