@@ -7,8 +7,7 @@ import Phone from './assets/Phone.png';
 
 const Navbar = () => {
   return (
-    <div className="bg-secondary">
-      <div className="container bg-gray-800 h-28">
+      <div className="container bg-secondary bg-gray-800 h-28">
         <div className=" mx-auto px-2 py-2 flex justify-between items-center h-full">
           <div className="flex items-center">
             <img src={Logo} alt="Logo" className="h-[36px] w-30 mr-2" />
@@ -29,7 +28,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
