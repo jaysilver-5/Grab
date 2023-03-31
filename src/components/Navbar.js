@@ -4,7 +4,6 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div className='bg-secondary bg-opacity-25'>
       <nav className="container z-50 absolute top-28 flex items-center justify-between h-16 text-white">
         <div className="flex items-center">
           <a href="#" className="px-3.5 text-[14px] border-r border-gray-400 hover:text-gray-300">
@@ -39,7 +38,6 @@ function Navbar() {
           <div className="ml-5 flex items-center text-black w-72 h-16 w-16 bg-white"><h1 className="mx-auto font-secondary font-medium">Request quote</h1></div>
         </div>
       </nav>
-    </div>
   );
 }
 
