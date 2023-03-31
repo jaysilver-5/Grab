@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function() {
   return (
-    <div className='bg-banner bg-no-repeat h-[800px]'>
+    <div className='bg-banner bg-no-repeat w-screen h-[800px]'>
         <div className='container relative top-32 flex items-center h-screen'>
             <div>
                 <div className='flex items-center w-[50%] text-[14px] bg-black text-white bg-opacity-50'>
