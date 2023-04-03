@@ -34,7 +34,7 @@ function Blog() {
                                     </div>
                                 </div>
                                 </div>
-                                <div className="border-l border-t border-b h-[230px] my-auto"></div>
+                                <div className="border-l border-t border-b h-[255px] my-auto"></div>
                                 <div className="flex-1 flex items-center px-4 py-2 border-l-0 border-t border-b">
                                 <div className="flex gap-x-6 m-auto items-center">
                                     <div>
