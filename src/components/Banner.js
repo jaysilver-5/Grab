@@ -15,7 +15,7 @@ export default function() {
                     <br/>diam interdum nulla, sed laoreet risus lectus.
                 </p>
                 <button className='mt-7 rounded-br-[-30px] flex items-center h-[60px] w-[194px] bg-gradient-to-r from-[#FFB629] to-[#FFD7A6]'>
-                    <p className='m-auto font-secondary font-semi-bold'>Explore more</p>
+
                 </button>
             </div>
         </div>
